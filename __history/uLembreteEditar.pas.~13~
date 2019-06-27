@@ -1,0 +1,48 @@
+unit uLembreteEditar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ComCtrls, Vcl.StdCtrls, uDM,
+  Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Mask;
+
+type
+  TFrmLembreteEditar = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    DBDescricao: TDBMemo;
+    EdtTitulo: TDBEdit;
+    EdtDataHora: TDBEdit;
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLembreteEditar: TFrmLembreteEditar;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmLembreteEditar.SpeedButton1Click(Sender: TObject);
+begin
+  DM.FDQryLembrete.Insert;
+  FrmLembreteEditar.Close;
+end;
+
+procedure TFrmLembreteEditar.SpeedButton2Click(Sender: TObject);
+begin
+  DM.FDQryLembrete.Close;
+end;
+
+end.

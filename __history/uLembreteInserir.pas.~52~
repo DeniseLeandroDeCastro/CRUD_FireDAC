@@ -1,0 +1,66 @@
+unit uLembreteInserir;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, Vcl.ComCtrls, uDM,
+  Vcl.StdCtrls, Vcl.DBCtrls, uLembrete, Vcl.Mask, System.ImageList, Vcl.ImgList,uLogin;
+
+type
+  TFrmLembreteInserir = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    SpeedButton1: TSpeedButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Panel3: TPanel;
+    DBMmDescricao: TDBMemo;
+    EdtTitulo: TDBEdit;
+    EdtDataHora: TDBEdit;
+    Usuario: TDBText;
+    idUsuario: TDBText;
+
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure UsuarioClick(Sender: TObject);
+    procedure idUsuarioClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLembreteInserir: TFrmLembreteInserir;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmLembreteInserir.SpeedButton1Click(Sender: TObject);
+begin
+    DM.FDQryLembrete.Post;
+    FrmLembreteInserir.Close;
+    //FrmLembreteInserir.Free;
+end;
+
+procedure TFrmLembreteInserir.UsuarioClick(Sender: TObject);
+begin
+Dm.FDQryUser.SQL.Add('select usuario from tbusuarios where usuario ='+ QuotedStr(uLogin.uFrmLogin.EdtUsuario.Text));
+end;
+
+procedure TFrmLembreteInserir.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+    Action := caFree;
+end;
+
+procedure TFrmLembreteInserir.idUsuarioClick(Sender: TObject);
+begin
+Dm.FDQryUser.SQL.Add('select idusuario from tbusuarios where usuario ='+ QuotedStr(uLogin.uFrmLogin.EdtUsuario.Text));
+end;
+
+end.

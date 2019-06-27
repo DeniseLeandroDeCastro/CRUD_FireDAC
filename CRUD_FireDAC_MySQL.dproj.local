@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/06 15:49:14.000.796,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/06 15:54:05.000.629,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/05/06 16:11:33.000.181,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uDM.pas</Transaction>
+    <Transaction>2019/05/06 16:11:33.000.181,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uDM.dfm</Transaction>
+    <Transaction>2019/05/06 16:12:00.000.272,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembretePrincipal.pas</Transaction>
+    <Transaction>2019/05/06 16:12:00.000.272,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembretePrincipal.dfm</Transaction>
+    <Transaction>2019/05/06 16:13:10.000.624,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\CRUD_FireDAC_MySQL.dproj</Transaction>
+    <Transaction>2019/05/06 20:30:14.000.822,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas</Transaction>
+    <Transaction>2019/05/06 20:32:18.000.319,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembreteEditar.pas</Transaction>
+    <Transaction>2019/05/06 20:32:18.000.319,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.dfm=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembreteEditar.dfm</Transaction>
+    <Transaction>2019/05/06 20:49:44.000.645,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas</Transaction>
+    <Transaction>2019/05/06 20:50:21.000.513,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.dfm=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembreteInserir.dfm</Transaction>
+    <Transaction>2019/05/06 20:50:21.000.513,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembreteInserir.pas</Transaction>
+    <Transaction>2019/05/07 15:57:12.000.817,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas</Transaction>
+    <Transaction>2019/05/07 15:57:47.000.130,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLembrete.pas</Transaction>
+    <Transaction>2019/05/07 18:03:58.000.187,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas</Transaction>
+    <Transaction>2019/05/07 18:05:03.000.795,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.dfm=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLogin.dfm</Transaction>
+    <Transaction>2019/05/07 18:05:03.000.795,C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\Unit1.pas=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\uLogin.pas</Transaction>
+    <Transaction>2019/05/08 13:50:16.000.046,=C:\Users\dmari\Documents\Embarcadero\Studio\Projects\CRUD_FireDAC-MySQL\ModelSupport_CRUD_FireDAC_MySQL\default.txaPackage</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ModelSupport_CRUD_FireDAC_MySQL"/>
+    <File Path="ModelSupport_CRUD_FireDAC_MySQL\default.txaPackage"/>
+    <File Path="uDM.pas"/>
+    <File Path="uDM.dfm"/>
+    <File Path="uLembrete.pas"/>
+    <File Path="uLembreteEditar.pas"/>
+    <File Path="uLembreteEditar.dfm"/>
+    <File Path="uLembreteInserir.pas"/>
+    <File Path="uLembreteInserir.dfm"/>
+    <File Path="uLembretePrincipal.pas"/>
+    <File Path="uLembretePrincipal.dfm"/>
+    <File Path="uLogin.pas"/>
+    <File Path="uLogin.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,22 @@
+program CRUD_FireDAC_MySQL;
+
+uses
+  Vcl.Forms,
+  uLembretePrincipal in 'uLembretePrincipal.pas' {uFrmCadastroPrincipal},
+  uDM in 'uDM.pas' {DM: TDataModule},
+  uLembreteEditar in 'uLembreteEditar.pas' {FrmLembreteEditar},
+  uLembreteInserir in 'uLembreteInserir.pas' {FrmLembreteInserir},
+  uLembrete in 'uLembrete.pas',
+  uLogin in 'uLogin.pas' {uFrmLogin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TuFrmCadastroPrincipal, uFrmCadastroPrincipal);
+  Application.CreateForm(TDM, DM);
+  Application.CreateForm(TFrmLembreteEditar, FrmLembreteEditar);
+  Application.CreateForm(TFrmLembreteInserir, FrmLembreteInserir);
+  Application.Run;
+end.
